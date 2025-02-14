@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.7",
+	"FriendlyName": "Vertex Animation Manager",
+	"Description": "Vertex Animation Manager",
+	"Category": "Animation",
+	"CreatedBy": "Thomas Schneider",
+	"CreatedByURL": "https://twitter.com/MechDawn",
+	"DocsURL": "https://drive.google.com/file/d/15kLk25k9TEwvUiW-d6kW4Ei4lmDlOQQE/view?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/32f9afab92fc4ba0a72574c6a1cd83cb",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VertexAnimationManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"IOS",
+				"Android",
+				"Linux",
+				"TVOS"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}

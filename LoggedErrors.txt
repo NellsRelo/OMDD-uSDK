@@ -1,0 +1,338 @@
+[30/132] Compile [x64] Module.CommonGame.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Plugins\CommonGame\Source\CommonGame\Public\CommonPlayerInputKey.h(3): fatal error C1083: Cannot open include file: 'ECommonInputType.h': No such file or directory
+
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UGameplayTask::OnGameplayTaskDeactivated(class UGameplayTask &)" (?OnGameplayTaskDeactivated@UGameplayTask@@MEAAXAEAV1@@Z)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UGameplayTask::OnGameplayTaskInitialized(class UGameplayTask &)" (?OnGameplayTaskInitialized@UGameplayTask@@MEAAXAEAV1@@Z)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual unsigned char __cdecl UGameplayTask::GetGameplayTaskDefaultPriority(void)const " (?GetGameplayTaskDefaultPriority@UGameplayTask@@MEBAEXZ)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class AActor * __cdecl UGameplayTask::GetGameplayTaskAvatar(class UGameplayTask const *)const " (?GetGameplayTaskAvatar@UGameplayTask@@MEBAPEAVAActor@@PEBV1@@Z)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class AActor * __cdecl UGameplayTask::GetGameplayTaskOwner(class UGameplayTask const *)const " (?GetGameplayTaskOwner@UGameplayTask@@MEBAPEAVAActor@@PEBV1@@Z)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class UGameplayTasksComponent * __cdecl UGameplayTask::GetGameplayTasksComponent(class UGameplayTask const &)const " (?GetGameplayTasksComponent@UGameplayTask@@MEBAPEAVUGameplayTasksComponent@@AEBV1@@Z)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UGameplayTask::Resume(void)" (?Resume@UGameplayTask@@MEAAXXZ)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UGameplayTask::Pause(void)" (?Pause@UGameplayTask@@MEAAXXZ)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UGameplayTask::GetDebugString(void)const " (?GetDebugString@UGameplayTask@@UEBA?AVFString@@XZ)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UGameplayTask::ExternalCancel(void)" (?ExternalCancel@UGameplayTask@@UEAAXXZ)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UGameplayTask::ExternalConfirm(bool)" (?ExternalConfirm@UGameplayTask@@UEAAX_N@Z)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UGameplayTask::Activate(void)" (?Activate@UGameplayTask@@MEAAXXZ)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UGameplayTask::RegisterReplicationFragments(class UE::Net::FFragmentRegistrationContext &,enum UE::Net::EFragmentRegistrationFlags)" (?RegisterReplicationFragments@UGameplayTask@@MEAAXAEAVFFragmentRegistrationContext@Net@UE@@W4EFragmentRegistrationFlags@34@@Z)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UGameplayTask::GetWorld(void)const " (?GetWorld@UGameplayTask@@UEBAPEAVUWorld@@XZ)
+Module.TargetingSystem.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UGameplayTask::GenerateDebugDescription(void)const " (?GenerateDebugDescription@UGameplayTask@@UEBA?AVFString@@XZ)
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Plugins\EnginePlugins\Experimental\GameplayTargetingSystem\Binaries\Win64\UnrealEditor-TargetingSystem-Win64-DebugGame.dll : fatal error LNK1120: 15 unresolved externals
+
+[46/132] Compile [x64] Module.OMD4.40.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTSkinDefinition.h(42): error C2272: 'ShouldHideWhenLocked': modifiers not allowed on static member functions
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTSkinDefinition.h(45): error C2272: 'IsSkinEnabled': modifiers not allowed on static member functions
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTSkinDefinition.h(48): error C2272: 'IsEntitlementRequired': modifiers not allowed on static member functions
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTSkinDefinition.h(51): error C2272: 'GetUnlockMilestone': modifiers not allowed on static member functions
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTSkinDefinition.h(54): error C2272: 'GetLinkedHero': modifiers not allowed on static member functions
+
+[52/132] Compile [x64] Module.OMD4.42.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTStatusFXVolume.h(15): error C2259: 'ARSTStatusFXVolume': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTStatusFXVolume.h(14): note: see declaration of 'ARSTStatusFXVolume'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTStatusFXVolume.h(15): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTStatusFXVolume.h(15): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTStatusFXVolume.h(15): error C2259: 'ARSTStatusFXVolume': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTStatusFXVolume.h(14): note: see declaration of 'ARSTStatusFXVolume'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTStatusFXVolume.h(15): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTStatusFXVolume.h(15): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTargetingFilterTask_Tags.h(4): fatal error C1083: Cannot open include file: 'Tasks/TargetingFilterTask_BasicFilterTemplate.h': No such file or directory
+
+[54/132] Compile [x64] Module.OMD4.7.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): error C2259: 'ARSTAICharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(34): note: see declaration of 'ARSTAICharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): error C2259: 'ARSTAICharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(34): note: see declaration of 'ARSTAICharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+[55/132] Compile [x64] Module.UIExtension.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Plugins\UIExtension\Source\UIExtension\Public\UIExtensionPointWidget.h(9): fatal error C1083: Cannot open include file: 'UIExtensionSystem.h': No such file or directory
+
+[62/132] Compile [x64] Module.OMD4.25.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTInputMetadata.h(3): fatal error C1083: Cannot open include file: 'CommonInputMetadata.h': No such file or directory
+[63/132] Compile [x64] Module.OMD4.26.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTLoadedMappableConfigPair.h(3): fatal error C1083: Cannot open include file: 'ECommonInputType.h': No such file or directory
+
+[66/132] Compile [x64] Module.VertexAnimationManager.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Plugins\EnginePlugins\Marketplace\VertexAnimationManager\Source\VertexAnimationManager\Public\VARuntimeRootMotionSignatureDelegate.h(5): fatal error C1083: Cannot open include file: 'VARuntimeRootMotionSignatureDelegate.generated.h': No such file or directory
+[67/132] Compile [x64] Module.OMD4.23.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(22): error C2259: 'ARSTHammerDecoy': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(21): note: see declaration of 'ARSTHammerDecoy'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(22): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(22): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(22): error C2259: 'ARSTHammerDecoy': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(21): note: see declaration of 'ARSTHammerDecoy'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(22): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(22): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Intermediate\Build\Win64\UnrealEditor\Inc\OMD4\UHT\RSTHammerDecoy.gen.cpp(146): error C2556: 'ETeamAttitude::Type ARSTHammerDecoy::GetTeamAttitudeTowardsActor(const AActor *) const': overloaded function differs only by return type from 'TEnumAsByte<ETeamAttitude::Type> ARSTHammerDecoy::GetTeamAttitudeTowardsActor(const AActor *) const'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(60): note: see declaration of 'ARSTHammerDecoy::GetTeamAttitudeTowardsActor'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Intermediate\Build\Win64\UnrealEditor\Inc\OMD4\UHT\RSTHammerDecoy.gen.cpp(145): error C2371: 'ARSTHammerDecoy::GetTeamAttitudeTowardsActor': redefinition; different basic types
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTHammerDecoy.h(60): note: see declaration of 'ARSTHammerDecoy::GetTeamAttitudeTowardsActor'
+
+[70/132] Compile [x64] Module.OMD4.44.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTUIActionRouterBase.h(3): fatal error C1083: Cannot open include file: 'CommonUIActionRouterBase.h': No such file or directory
+
+[73/132] Compile [x64] Module.OMD4.33.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerState.h(58): error C2259: 'ARSTPlayerState': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerState.h(57): note: see declaration of 'ARSTPlayerState'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerState.h(58): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerState.h(58): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerState.h(58): error C2259: 'ARSTPlayerState': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerState.h(57): note: see declaration of 'ARSTPlayerState'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerState.h(58): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerState.h(58): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+[74/132] Compile [x64] Module.OMD4.22.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTGenericInputData.h(3): fatal error C1083: Cannot open include file: 'CommonUIInputData.h': No such file or directory
+
+[76/132] Compile [x64] Module.OMD4.28.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTMinirift.h(11): error C2259: 'ARSTMinirift': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTMinirift.h(10): note: see declaration of 'ARSTMinirift'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTMinirift.h(11): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTMinirift.h(11): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTMinirift.h(11): error C2259: 'ARSTMinirift': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTMinirift.h(10): note: see declaration of 'ARSTMinirift'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTMinirift.h(11): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTMinirift.h(11): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+
+[82/132] Compile [x64] Module.OMD4.30.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPawnDefinitionHero.h(54): error C2272: 'IsHeroEnabled': modifiers not allowed on static member functions
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPawnDefinitionHero.h(57): error C2272: 'IsEntitlementRequired': modifiers not allowed on static member functions
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPawnUserFacingData.h(63): error C2272: 'SortUserFacingArray': modifiers not allowed on static member functions
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPawnUserFacingData.h(66): error C2272: 'SortHeroTagArray': modifiers not allowed on static member functions
+
+[85/132] Compile [x64] Module.OMD4.16.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTGameData.h(232): error C2272: 'GetPtr': modifiers not allowed on static member functions
+
+[88/132] Compile [x64] Module.OMD4.38.cpp
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineFramework\Source\Rejoin\Public\RejoinCheck.h(5): fatal error C1083: Cannot open include file: 'OnlineSessionSettings.h': No such file or directory
+
+[90/132] Compile [x64] Module.OMD4.11.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+[91/132] Compile [x64] Module.OMD4.47.cpp
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineFramework\Source\Rejoin\Public\RejoinCheck.h(5): fatal error C1083: Cannot open include file: 'OnlineSessionSettings.h': No such file or directory
+
+[96/132] Compile [x64] Module.OMD4.13.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+[97/132] Compile [x64] Module.OMD4.43.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(58): error C2259: 'ARSTTrap': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(57): note: see declaration of 'ARSTTrap'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(58): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(58): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(58): error C2259: 'ARSTTrap': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(57): note: see declaration of 'ARSTTrap'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(58): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(58): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Intermediate\Build\Win64\UnrealEditor\Inc\OMD4\UHT\RSTTrap.gen.cpp(1157): error C2556: 'ETeamAttitude::Type ARSTTrap::GetTeamAttitudeTowardsActor(const AActor *) const': overloaded function differs only by return type from 'TEnumAsByte<ETeamAttitude::Type> ARSTTrap::GetTeamAttitudeTowardsActor(const AActor *) const'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(346): note: see declaration of 'ARSTTrap::GetTeamAttitudeTowardsActor'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Intermediate\Build\Win64\UnrealEditor\Inc\OMD4\UHT\RSTTrap.gen.cpp(1156): error C2371: 'ARSTTrap::GetTeamAttitudeTowardsActor': redefinition; different basic types
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTTrap.h(346): note: see declaration of 'ARSTTrap::GetTeamAttitudeTowardsActor'
+
+[101/132] Compile [x64] Module.OMD4.41.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTSkinUserFacingData.h(34): error C2272: 'SortSkinUserFacingArray': modifiers not allowed on static member functions
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTStatusEffectUserFacingData.h(38): error C2272: 'ShouldDisplayLocalOnly': modifiers not allowed on static member functions
+[102/132] Compile [x64] Module.OMD4.31.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerCharacter.h(35): error C2259: 'ARSTPlayerCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerCharacter.h(34): note: see declaration of 'ARSTPlayerCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerCharacter.h(35): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerCharacter.h(35): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerCharacter.h(35): error C2259: 'ARSTPlayerCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerCharacter.h(34): note: see declaration of 'ARSTPlayerCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerCharacter.h(35): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerCharacter.h(35): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerController.h(37): error C2259: 'ARSTPlayerController': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerController.h(36): note: see declaration of 'ARSTPlayerController'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerController.h(37): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerController.h(37): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerController.h(37): error C2259: 'ARSTPlayerController': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerController.h(36): note: see declaration of 'ARSTPlayerController'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerController.h(37): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTPlayerController.h(37): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+
+[105/132] Compile [x64] Module.OMD4.10.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): error C2259: 'ARSTBlunderbussPet': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(15): note: see declaration of 'ARSTBlunderbussPet'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): error C2259: 'ARSTBlunderbussPet': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(15): note: see declaration of 'ARSTBlunderbussPet'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Intermediate\Build\Win64\UnrealEditor\Inc\OMD4\UHT\RSTBlunderbussPet.gen.cpp(69): error C2556: 'ETeamAttitude::Type ARSTBlunderbussPet::GetTeamAttitudeTowardsActor(const AActor *) const': overloaded function differs only by return type from 'TEnumAsByte<ETeamAttitude::Type> ARSTBlunderbussPet::GetTeamAttitudeTowardsActor(const AActor *) const'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(28): note: see declaration of 'ARSTBlunderbussPet::GetTeamAttitudeTowardsActor'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Intermediate\Build\Win64\UnrealEditor\Inc\OMD4\UHT\RSTBlunderbussPet.gen.cpp(68): error C2371: 'ARSTBlunderbussPet::GetTeamAttitudeTowardsActor': redefinition; different basic types
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(28): note: see declaration of 'ARSTBlunderbussPet::GetTeamAttitudeTowardsActor'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): error C2259: 'ARSTBlunderbussPetUltimate': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(10): note: see declaration of 'ARSTBlunderbussPetUltimate'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): error C2259: 'ARSTBlunderbussPetUltimate': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(10): note: see declaration of 'ARSTBlunderbussPetUltimate'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBoundActionButton.h(3): fatal error C1083: Cannot open include file: 'CommonBoundActionButton.h': No such file or directory
+[106/132] Compile [x64] Module.OMD4.14.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTDoor.h(31): error C2259: 'ARSTDoor': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTDoor.h(30): note: see declaration of 'ARSTDoor'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTDoor.h(31): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTDoor.h(31): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTDoor.h(31): error C2259: 'ARSTDoor': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTDoor.h(30): note: see declaration of 'ARSTDoor'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTDoor.h(31): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTDoor.h(31): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+
+[120/132] Compile [x64] Module.OMD4.46.cpp
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): error C2259: 'ARSTActiveSubobject': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(18): note: see declaration of 'ARSTActiveSubobject'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTActiveSubobject.h(19): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): error C2259: 'ARSTCharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(51): note: see declaration of 'ARSTCharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTCharacter.h(52): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): error C2259: 'ARSTAICharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(34): note: see declaration of 'ARSTAICharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): error C2259: 'ARSTAICharacter': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(34): note: see declaration of 'ARSTAICharacter'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTAICharacter.h(35): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): error C2259: 'ARSTBlunderbussPet': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(15): note: see declaration of 'ARSTBlunderbussPet'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): error C2259: 'ARSTBlunderbussPet': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(15): note: see declaration of 'ARSTBlunderbussPet'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Private\RSTBlunderbussPet.cpp(11): error C2556: 'TEnumAsByte<ETeamAttitude::Type> ARSTBlunderbussPet::GetTeamAttitudeTowardsActor_Implementation(const AActor *) const': overloaded function differs only by return type from 'ETeamAttitude::Type ARSTBlunderbussPet::GetTeamAttitudeTowardsActor_Implementation(const AActor *) const'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: see declaration of 'ARSTBlunderbussPet::GetTeamAttitudeTowardsActor_Implementation'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Private\RSTBlunderbussPet.cpp(11): error C2371: 'ARSTBlunderbussPet::GetTeamAttitudeTowardsActor_Implementation': redefinition; different basic types
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPet.h(16): note: see declaration of 'ARSTBlunderbussPet::GetTeamAttitudeTowardsActor_Implementation'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): error C2259: 'ARSTBlunderbussPetUltimate': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(10): note: see declaration of 'ARSTBlunderbussPetUltimate'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): error C2259: 'ARSTBlunderbussPetUltimate': cannot instantiate abstract class
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(10): note: see declaration of 'ARSTBlunderbussPetUltimate'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): note: due to following members:
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBlunderbussPetUltimate.h(11): note: 'UAbilitySystemComponent *IAbilitySystemInterface::GetAbilitySystemComponent(void) const': is abstract
+C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h(24): note: see declaration of 'IAbilitySystemInterface::GetAbilitySystemComponent'
+C:\Users\REDACTED\Documents\Unreal Projects\OMDD\Source\OMD4\Public\RSTBoundActionButton.h(3): fatal error C1083: Cannot open include file: 'CommonBoundActionButton.h': No such file or directory
