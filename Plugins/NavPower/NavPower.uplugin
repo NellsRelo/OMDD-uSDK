@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "NavPower",
+	"Description": "Navpower navmesh generation & crowd control",
+	"Category": "Other",
+	"CreatedBy": "Dusty",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "NavPower",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"WinGDK",
+				"XboxOneGDK",
+				"PS4",
+				"XSX",
+				"PS5"
+			]
+		}
+	]
+}

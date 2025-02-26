@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Robot Network Proxy Actor",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Robot Entertainment, Inc.",
+	"CreatedByURL": "http://robotentertainment.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RobotNetworkProxyActor",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModularGameplay",
+			"Enabled": true
+		}
+	]
+}
