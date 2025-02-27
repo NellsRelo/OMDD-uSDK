@@ -15,18 +15,32 @@ To get started, we'll need Unreal Engine 5.3.2 and Visual Studio 2022 or JetBrai
 - Unreal Engine 5.3.2
 - Visual Studio 2022 (not code) or JetBrains Rider
 
-### Building the .uproject
+### Preparing the .uproject
 1. Download and unzip the repository into your `C:/Users/USERNAME/Documents/Unreal Projects/` folder and rename the resulting folder`OMDD`.
 2. Right click `OMDD.uproject` and select "Generate Visual Studio Project Files."
 3. Wait until the progress bar completes.
-4. Open the newly-created `OMDD.sln` file in Visual Studio 2022.
-5. In the right pane, open the `Games` folder and right-click `OMDD`.
-6. Select "Set as Startup project."
-7. In the toolbar, look for the gear icon that says "OMDD."
-8. Ensure the dropdown two to the left of the gear icon is set to "Development Editor."
-9. Go to `Build -> Build Solution`.
 
-If there are any errors that cause the build to fail, request assistance on the OMD Modding Discord.
+If there are any errors that cause this to fail, request assistance on the OMD Modding Discord.
+
+### Compiling the C++
+Before we can compile the project, we need to ensure all required plugins are available. If you haven't already, install the following plugins:
+  - [NVidia DLSS UE 5.3 Plugin 3.7.20](https://dlss.download.nvidia.com/uebinarypackages/UE5.3_DLSS_3.7.20_Plugin_2024.09.06.zip)
+        a. Open the .zip file and navigate to the Plugins folder.
+        b. Unzip the `DLSS` folder into your `UE_5.3/Engine/Plugins/Marketplace` folder.
+        c. Launch Unreal Engine 5.3. (NOT THE OMDD PROJECT)
+        d. Select `Edit` -> `Plugins`.
+        e. Search for "DLSS" in the search bar.
+        f. Confirm the "NVIDIA DLSS" plugins show up.
+
+Once you have the required plugins, you can continue.
+1. Open the newly-created `OMDD.sln` file in Visual Studio 2022.
+2. In the right pane, open the `Games` folder and right-click `OMDD`.
+3. Select "Set as Startup project."
+4. In the toolbar, look for the gear icon that says "OMDD."
+5. Ensure the dropdown two to the left of the gear icon is set to "Development Editor."
+6. Go to `Build -> Build Solution`.
+
+If there are any errors that cause this to fail, request assistance on the OMD Modding Discord.
 
 ### Configuring and Building with the Editor
 You should now be able to open the project in Unreal Editor. Before you get started with BP mods, you'll want to make a couple quick settings adjustments, and attempt a build from within the editor.
